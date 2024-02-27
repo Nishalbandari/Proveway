@@ -1,0 +1,189 @@
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+h1 {
+    color: #FF6B82;
+    position: relative;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h1:before {
+
+    content: "";
+    display: block;
+    width: 7rem;
+    height: 1px;
+    background: #000;
+    right: 105%;
+    top: 50%;
+    position: absolute;
+}
+
+h1:after {
+
+    content: "";
+    display: block;
+    width: 7rem;
+    height: 1px;
+    background: #000;
+    left: 105%;
+    top: 50%;
+    position: absolute;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 576px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    width: 28rem;
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+}
+
+
+.heading {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Standred {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 1.6rem;
+    line-height: 0rem;
+}
+
+span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #FF6B82;
+    color: #fff;
+    width: 47px;
+    height: 15px;
+    margin-left: 0.8rem;
+    padding: 0.12rem 0.3rem;
+
+
+
+}
+
+.para1 {
+    line-height: 0.5;
+    font-size: 20px;
+
+}
+
+.para2 {
+    color: gray;
+    font-size: 14px;
+    line-height: 0;
+
+}
+
+#table {
+    padding-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+select {
+    width: 5rem;
+    height: 1.8rem;
+    border: 2px solid rgb(158, 155, 155);
+    border-radius: 3px;
+    padding: 3px 0px;
+}
+
+.parent2 {
+    background-color: #fff9fa;
+    border: 0.2rem solid #FF6B82;
+    position: relative;
+
+
+}
+
+.Most_Popular {
+    background-color: #FF6B82 !important;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: small;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    bottom: 66%;
+    right: 31%;
+    white-space: wrap;
+    z-index: 1;
+
+}
+
+.Delivery {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: nowrap;
+
+
+}
+
+.Free {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF6B82;
+    width: 5rem;
+
+}
+
+button {
+    width: 30rem;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF6B82;
+    color: #fff;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.Power {
+    display: flex;
+    justify-content: end;
+    line-height: 0.3rem;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
